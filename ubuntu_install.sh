@@ -5,7 +5,7 @@ sudo apt-add-repository ppa:git-core/ppa -y
 
 # Oracle Java (JDK) 7/8/9 Installer PPA
 ## This PPA won't install java directly, but download files needed from oracle
-sudo apt-add-repository ppa:webup8team/java -y
+sudo apt-add-repository ppa:webupd8team/java -y
 
 # Ubuntu Emacs Lisp Team
 ## install latest emacs snapshot
