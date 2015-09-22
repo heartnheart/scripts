@@ -1,2 +1,3 @@
 # [Create soft links]
-ln -s .Xmodmap ~/.Xmodmap
+cd ~
+ln -s scripts/.Xmodmap .Xmodmap 
