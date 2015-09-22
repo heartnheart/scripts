@@ -11,6 +11,9 @@ sudo apt-add-repository ppa:webup8team/java
 ## install latest emacs snapshot
 sudo apt-add-repository ppa:ubuntu-elisp/ppa
 
+# CodeBlocks
+## This is not an official one
+sudo apt-add-repository ppa:pasgui/ppa
 
 # [PPA Update]
 sudo apt-get update
@@ -24,3 +27,7 @@ sudo apt-get install oracle-java8-installer
 
 # Ubuntu Emacs Lisp Team
 sudo apt-get install emacs-snapshot
+
+# CodeBlocks
+## Install codeblocks-contrib to get plugins functionality
+sudo apt-get install codeblocks codeblocks-contrib
