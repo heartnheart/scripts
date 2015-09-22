@@ -15,6 +15,10 @@ sudo apt-add-repository ppa:ubuntu-elisp/ppa
 ## This is not an official one
 sudo apt-add-repository ppa:pasgui/ppa
 
+# CMake 3.x PPA
+# This is not an official ppa
+sudo apt-add-repository ppa:george-edison55/cmake-3.x
+
 # [PPA Update]
 sudo apt-get update
 
@@ -31,3 +35,10 @@ sudo apt-get install emacs-snapshot
 # CodeBlocks
 ## Install codeblocks-contrib to get plugins functionality
 sudo apt-get install codeblocks codeblocks-contrib
+
+# CMake 3.x PPA
+## Remember to install cmake-qt-gui 
+## cmake-curses-gui is for ccmake
+sudo apt-get install cmake cmake-qt-gui cmake-curses-gui
+
+
