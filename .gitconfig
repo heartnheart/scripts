@@ -1,0 +1,7 @@
+[user]
+	name = Xiaolong Zhang
+	email = xlzhang921@gmail.com
+[core]
+	pager = less -R
+[color]
+	diff = auto
