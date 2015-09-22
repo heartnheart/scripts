@@ -1,0 +1,25 @@
+"hg7166
+colorscheme solarized-dark
+loadplugins '\.(js|penta)$'
+group user
+set cdpath=''
+set guioptions=bCrsmT
+set hintkeys=asdfg;lkjh
+
+" vim: set ft=pentadactyl:
+
+"" scroll more
+nmap -builtin j 10j
+nmap -builtin k 10k
+
+"" swap full zoom and text zoom mapping
+nmap -builtin zi ZI
+nmap -builtin zm ZM
+nmap -builtin zo ZO
+nmap -builtin zr ZR
+nmap -builtin zz zZ
+nmap -builtin ZI zi
+nmap -builtin ZM zm
+nmap -builtin ZO zo
+nmap -builtin ZR zr
+nmap -builtin zZ zz
