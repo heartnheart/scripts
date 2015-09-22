@@ -48,3 +48,5 @@ sudo apt-get install cmake cmake-qt-gui cmake-curses-gui -y
 # xclip for clipboard management
 sudo apt-get install xclip -y
 
+# colordiff
+sudo apt-get install colordiff
