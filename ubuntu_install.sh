@@ -50,3 +50,6 @@ sudo apt-get install xclip -y
 
 # colordiff
 sudo apt-get install colordiff
+
+# vim
+sudo apt-get install vim
