@@ -19,6 +19,9 @@ sudo apt-add-repository ppa:pasgui/ppa -y
 # This is not an official ppa
 sudo apt-add-repository ppa:george-edison55/cmake-3.x -y
 
+# Ledger 3.0 PPA
+sudo add-apt-repository ppa:mbudde/ledger -y
+
 # [PPA Update]
 sudo apt-get update
 
@@ -42,7 +45,8 @@ sudo apt-get install codeblocks codeblocks-contrib -y
 sudo apt-get install cmake cmake-qt-gui cmake-curses-gui -y
 
 
-
+# Ledger 3.0
+sudo apt-get install ledger -y
 
 # [Non PPA Software]
 # xclip for clipboard management
